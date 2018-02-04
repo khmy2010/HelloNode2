@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "open http://localhost:3000 | nodemon server.js -e js,hbs",
     "start": "node server.js",
-    "add": "git status | git add . "
+    "add": "git status | git add . ",
+    "heroku": "git push heroku | heroku open"
   },
   "keywords": [],
   "author": "KH",
